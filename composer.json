@@ -1,0 +1,23 @@
+{
+  "name": "sargas/recaptcha",
+  "type": "wordpress-plugin",
+  "require": {
+    "google/recaptcha": "^1.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sargas\\Recaptcha\\": "includes"
+    }
+  },
+  "authors": [
+    {
+      "name": "sargas"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true
+  }
+}

@@ -1,0 +1,10 @@
+.sargas-recaptcha-wrapper {
+    -webkit-transform: scale(0.88);
+    -ms-transform: scale(0.88);
+    transform: scale(0.88);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    clear: both;
+    padding: 10px 0 5px 0;
+}

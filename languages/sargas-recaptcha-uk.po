@@ -1,0 +1,315 @@
+# Copyright (C) 2023 Sargas Inc
+# This file is distributed under the same license as the Sargas reCAPTCHA plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sargas reCAPTCHA 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sargas-recaptcha\n"
+"POT-Creation-Date: 2023-03-24T14:58:04+00:00\n"
+"PO-Revision-Date: 2023-03-24 16:58+0200\n"
+"Last-Translator: Sargas Inc <sargas.company@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: sargas-recaptcha\n"
+
+#. Plugin Name of the plugin
+msgid "Sargas reCAPTCHA"
+msgstr "Sargas reCAPTCHA"
+
+#. Description of the plugin
+msgid ""
+"Protect your WordPress forms against spam and brute-force using Sargas "
+"reCAPTCHA"
+msgstr ""
+"Захистить свої форми WordPress від спаму там brute-force атак за допомогою "
+"Sargas reCAPTCHA"
+
+#. Author of the plugin
+msgid "Sargas Inc"
+msgstr "Sargas Inc"
+
+#. Author URI of the plugin
+msgid "https://sargas.io"
+msgstr "https://sargas.io"
+
+#: includes/Abstracts/Recaptcha_Form.php:35
+#: includes/Admin/Feature_Request_Ajax.php:62
+#: includes/Admin/Test_Keys_Ajax.php:41 includes/Admin/Test_Keys_Ajax.php:47
+#: includes/Forms/MC4WP_Form.php:58
+#: includes/Forms/Ninja_Forms/Ninja_Forms_Custom_Field.php:60
+msgid "Error"
+msgstr "Помилка"
+
+#: includes/Abstracts/Recaptcha_Form.php:36
+#: includes/Forms/Ninja_Forms/Ninja_Forms_Custom_Field.php:61
+#: includes/Forms/Woocommerce/Checkout_Form.php:22
+#: includes/Forms/Woocommerce/Login_Form.php:23
+#: includes/Forms/Woocommerce/Register_Form.php:23
+msgid "Invalid reCAPTCHA. Please try again."
+msgstr "Тест reCAPTCHA не було пройдено. Будь ласка, спробуйте ще раз."
+
+#: includes/Admin/Feature_Request_Ajax.php:62
+msgid "Something went wrong. Please, try again later."
+msgstr "Щось пішло не так. Будь ласка, спробуйте пізніше."
+
+#: includes/Admin/Feature_Request_Ajax.php:76
+#: includes/Admin/Feature_Request_Ajax.php:133
+msgid "This field is required."
+msgstr "Це поле обов’язкове для заповнення."
+
+#: includes/Admin/Feature_Request_Ajax.php:83
+#: includes/Admin/Feature_Request_Ajax.php:130
+msgid "Maximum message length exceeded."
+msgstr "Перевищено максимальну довжину повідомлення."
+
+#: includes/Admin/Notices/Error_Notice.php:35
+#: includes/Admin/Notices/Warning_Notice.php:35
+#: includes/Admin/Settings_Page.php:115 includes/Admin/Settings_Page.php:132
+#: includes/Config/Initial_Value.php:333
+msgid "Warning"
+msgstr "Увага"
+
+#: includes/Admin/Settings_Page.php:83
+msgid ""
+"Before you start working with Google reCAPTCHA, you need to generate API "
+"keys from"
+msgstr ""
+"Перед початком використування Google reCAPTCHA вам потрібно створити API "
+"ключі у"
+
+#: includes/Admin/Settings_Page.php:116
+msgid "plugin is not installed. Please"
+msgstr "плагін не встановлено. Будь ласка"
+
+#: includes/Admin/Settings_Page.php:118
+msgid "install it."
+msgstr "установіть його."
+
+#: includes/Admin/Settings_Page.php:133
+msgid "plugin is inactive. Please"
+msgstr "плагін неактивовано. Будь ласка"
+
+#: includes/Admin/Settings_Page.php:135
+msgid "activate it."
+msgstr "активуйте його."
+
+#: includes/Admin/Test_Keys_Ajax.php:41
+msgid "Invalid reCAPTCHA."
+msgstr "Неправильна reCAPTCHA."
+
+#: includes/Admin/Test_Keys_Ajax.php:47
+msgid "Missed reCAPTCHA response."
+msgstr "Пропущено відповідь reCAPTCHA."
+
+#: includes/Admin/Test_Keys_Ajax.php:52
+msgid "reCAPTCHA works correctly."
+msgstr "reCAPTCHA працює правильно."
+
+#: includes/Admin/Test_Keys_Ajax.php:92
+msgid "reCAPTCHA is displayed correctly."
+msgstr "reCAPTCHA відображається правильно."
+
+#: includes/Admin/Test_Keys_Ajax.php:93
+msgid "Incorrect reCAPTCHA keys type."
+msgstr "Неправильний тип ключів reCAPTCHA."
+
+#: includes/Admin/Test_Keys_Ajax.php:94
+msgid "reCAPTCHA keys verification failed"
+msgstr "Перевірка ключів reCAPTCHA не вдалася"
+
+#: includes/Config/Initial_Value.php:110 includes/Config/Initial_Value.php:111
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/Config/Initial_Value.php:134
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: includes/Config/Initial_Value.php:140
+msgid "Standard Forms"
+msgstr "Стандартні форми"
+
+#: includes/Config/Initial_Value.php:146
+msgid "WooCommerce Forms"
+msgstr "Форми WooCommerce"
+
+#: includes/Config/Initial_Value.php:152 includes/Config/Initial_Value.php:298
+msgid "Mailchimp For Wordpress Forms"
+msgstr "Форми Mailchimp For Wordpress"
+
+#: includes/Config/Initial_Value.php:158 includes/Config/Initial_Value.php:309
+#: templates/admin/options-page/main-option-page.php:34
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: includes/Config/Initial_Value.php:164 includes/Config/Initial_Value.php:320
+#: templates/admin/options-page/main-option-page.php:39
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: includes/Config/Initial_Value.php:173
+msgid "reCAPTCHA type"
+msgstr "тип reCAPTCHA"
+
+#: includes/Config/Initial_Value.php:184
+msgid "Site Key"
+msgstr "Ключ сайту"
+
+#: includes/Config/Initial_Value.php:192
+msgid "Please input your site key here"
+msgstr "Будь ласка, додайте сюди свій ключ сайту"
+
+#: includes/Config/Initial_Value.php:197
+msgid "Secret Key"
+msgstr "Секретний ключ"
+
+#: includes/Config/Initial_Value.php:205
+msgid "Please input your secret key here"
+msgstr "Будь ласка, додайте сюди свій секретний ключ"
+
+#: includes/Config/Initial_Value.php:210 includes/Config/Initial_Value.php:254
+msgid "Login Form"
+msgstr "Форма логіну"
+
+#: includes/Config/Initial_Value.php:221 includes/Config/Initial_Value.php:265
+msgid "Register Form"
+msgstr "Форма регістрації"
+
+#: includes/Config/Initial_Value.php:232
+msgid "Comment Form"
+msgstr "Форма коментарів"
+
+#: includes/Config/Initial_Value.php:243 includes/Config/Initial_Value.php:276
+msgid "Lost Password Form"
+msgstr "Форма відновлення паролю"
+
+#: includes/Config/Initial_Value.php:287
+msgid "Checkout Form"
+msgstr "Форма оформлення замовлення"
+
+#: includes/Config/Initial_Value.php:334
+msgid ""
+"reCAPTCHA type has been changed. Please, don't forget to replace necessaries "
+"keys from"
+msgstr ""
+"Тип reCAPTCHA було змінено. Будь ласка, не забудьте замінити ключі на "
+"необхідні з"
+
+#: includes/Config/Initial_Value.php:335
+msgid "the admin dashboard."
+msgstr "панель адміністратора."
+
+#: includes/Config/Initial_Value.php:342
+msgid "Settings saved."
+msgstr "Налаштування збережені."
+
+#: includes/Forms/Comment_Form.php:34 includes/Forms/Comment_Form.php:41
+msgid "reCAPTCHA error"
+msgstr "Помилка reCAPTCHA"
+
+#: includes/Forms/MC4WP_Form.php:59
+msgid "The reCAPTCHA response is missed. Please try again."
+msgstr "Відсутня відповідь від reCAPTCHA. Будь ласка, спробуйте ще раз."
+
+#: includes/Init/Recaptcha_Form_Factory.php:69
+msgid "An error occurred while processing the form. Please try again"
+msgstr "При обробці форми сталася помилка. Будь ласка, спробуйте ще раз"
+
+#: sargas-recaptcha.php:86
+msgid ""
+"Before you start working with Google reCAPTCHA, you need to enter the site "
+"key and the secret key."
+msgstr ""
+"Перш ніж почати роботу з Google reCAPTCHA, вам необхідно ввести ключ сайту і "
+"секретний ключ."
+
+#: sargas-recaptcha.php:95
+msgid "An error occurred. Please, try again"
+msgstr "Сталася помилка. Будь ласка, спробуйте ще раз"
+
+#: templates/admin/options-page/main-option-page.php:16
+msgid "General"
+msgstr "Загальні"
+
+#: templates/admin/options-page/main-option-page.php:29
+msgid "Mailchimp for WordPress"
+msgstr "Mailchimp for WordPress"
+
+#: templates/admin/options-page/main-option-page.php:53
+#: templates/admin/options-page/main-option-page.php:67
+#: templates/admin/options-page/main-option-page.php:81
+#: templates/admin/options-page/main-option-page.php:95
+#: templates/admin/options-page/main-option-page.php:109
+#: templates/admin/options-page/main-option-page.php:123
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: templates/admin/options-page/main-option-page.php:136
+msgid "Info"
+msgstr "Інформація"
+
+#: templates/admin/options-page/main-option-page.php:138
+msgid "Ukrainian Digital Company"
+msgstr "Українська цифрова компанія"
+
+#: templates/admin/options-page/main-option-page.php:147
+msgid "Plugin version"
+msgstr "Версія плагіну"
+
+#: templates/admin/options-page/main-option-page.php:154
+#: templates/admin/options-page/main-option-page.php:206
+msgid "Please enable JavaScript in your browser to submit this form"
+msgstr ""
+"Будь ласка, увімкніть JavaScript у вашому браузері, щоб відправити цю форму"
+
+#: templates/admin/options-page/main-option-page.php:166
+msgid "Send anonymously"
+msgstr "Надіслати анонімно"
+
+#: templates/admin/options-page/main-option-page.php:173
+msgid ""
+"You can share us your email, WordPress version, and plugin version to help "
+"us better understand your wishes and we can contact you. Or you can enable "
+"checkbox and submit anonymously."
+msgstr ""
+"Ви можете поділитися з нами своєю електронною поштою, версією WordPress і "
+"версією плагіна, щоб допомогти нам краще зрозуміти ваші побажання і ми могли "
+"зв’язатися з вами. Або ви можете увімкнути чекбокс і відправити заявку "
+"анонімно."
+
+#: templates/admin/options-page/main-option-page.php:179
+msgid "Thank you for contacting us, we received your request successfully!"
+msgstr "Дякуємо, що звернулися до нас, ми успішно отримали вашу пропозицію!"
+
+#: templates/admin/options-page/main-option-page.php:182
+#: templates/admin/options-page/main-option-page.php:195
+msgid "Request a feature"
+msgstr "Запропонувати функціонал"
+
+#: templates/admin/options-page/main-option-page.php:192
+msgid "Submit a feature request"
+msgstr "Надіслати пропонування функціонала"
+
+#: templates/admin/options-page/main-option-page.php:200
+msgid "reCAPTCHA widget preview"
+msgstr "Попередній перегляд віджету reCAPTCHA"
+
+#: templates/admin/options-page/main-option-page.php:204
+msgid "No secret key or site key found."
+msgstr "Секретний ключ або ключ сайту не знайдено."
+
+#: templates/admin/options-page/main-option-page.php:221
+msgid "Test Keys"
+msgstr "Протестувати ключі"
+
+#~ msgid ""
+#~ "The value of the secret or site key cannot be empty. This can block "
+#~ "access to your admin dashboard."
+#~ msgstr ""
+#~ "Значення секретного або ключа сайту не може бути пустим. Це може "
+#~ "заблокувати доступ до панелі адміністратора."

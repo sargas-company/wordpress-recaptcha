@@ -1,0 +1,165 @@
+.sargas-recaptcha-text-input::placeholder {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.sargas-recaptcha-wrapper {
+	padding: 10px 0 5px 0;
+	-webkit-transform: scale(0.84);
+	-ms-transform: scale(0.84);
+	transform: scale(0.84);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	clear: both;
+}
+
+/*  */
+.toplevel_page_sargas-recaptcha #TB_window {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 100%;
+	max-width: 90%;
+	margin: 0 !important;
+}
+
+.toplevel_page_sargas-recaptcha #TB_ajaxContent {
+	width: 100% !important;
+	height: auto !important;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+#sargas-recaptcha-keys-verification-error,
+#sargas-recaptcha-keys-verification-success {
+	overflow-wrap: break-word;
+}
+
+.sargas-recaptcha-success-message {
+	color: #00a32a;
+}
+
+.sargas-recaptcha-error-message {
+	color: #d63638;
+}
+
+.sargas-recaptcha .sargas-recaptcha-info {
+	font-style: italic;
+	word-break: break-all;
+}
+
+.sargas-recaptcha #poststuff h2 {
+	padding-left: 0;
+	margin-bottom: 10px;
+	border-bottom: 1px #cdcdcd solid;
+	font-size: 18px;
+}
+
+.sargas-recaptcha #poststuff h2.nav-tab-wrapper {
+	padding: 0 .5em 0 0;
+}
+
+.sargas-recaptcha #poststuff h2.nav-tab-wrapper a {
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+
+.sargas-recaptcha .postbox-container {
+	margin-top: 35px;
+}
+
+.sargas-recaptcha-test-keys-form button.button-primary {
+	margin-top: 10px;
+}
+
+.sargas-recaptcha-test-keys-form .sargas-recaptcha-loader {
+	display: none;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.sargas-recaptcha-loader {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.sargas-recaptcha-d-none {
+	display: none;
+}
+
+.sargas-recaptcha-tooltip {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	color: #2271b1;
+}
+
+.sargas-recaptcha-tooltip .sargas-recaptcha-tooltip-text {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	z-index: 1;
+	width: 220px;
+	margin-left: -110px; /* 120/2 = 60 */
+	padding: 5px;
+	border-radius: 6px;
+	visibility: hidden;
+	opacity: 0;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	transition: opacity 0.3s;
+}
+
+.sargas-recaptcha-validation-error {
+	display: inline-block;
+}
+
+.sargas-recaptcha-tooltip .sargas-recaptcha-tooltip-text::after {
+	content: "";
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	margin-left: -10px;
+	left: 50%;
+	top: 100%;
+	border-color: #555 transparent transparent transparent;
+}
+
+.sargas-recaptcha-tooltip:hover .sargas-recaptcha-tooltip-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.sargas-feature-request {
+	padding-top: 15px;
+}
+
+#sargas-feature-request-textarea {
+	width: 100%;
+	min-height: 150px;
+}
+
+#sargas-feature-request-textarea.focus {
+	border-color: #D8000C;
+	box-shadow: 0 0 0 1px #D8000C;
+}
+
+@media screen and (max-width: 850px) {
+	.sargas-recaptcha .postbox-container {
+		margin-top: 0;
+	}
+
+	.toplevel_page_sargas-recaptcha #post-body-content{
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 543px) {
+	.sargas-recaptcha #poststuff h2.nav-tab-wrapper {
+		padding-bottom: 0.5em;
+	}
+}
